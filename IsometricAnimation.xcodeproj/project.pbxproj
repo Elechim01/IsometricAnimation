@@ -11,6 +11,7 @@
 		C463DD9C28F338060073417E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463DD9B28F338060073417E /* ContentView.swift */; };
 		C463DD9E28F338080073417E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C463DD9D28F338080073417E /* Assets.xcassets */; };
 		C463DDA128F338080073417E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C463DDA028F338080073417E /* Preview Assets.xcassets */; };
+		C463DDA928F3384A0073417E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463DDA828F3384A0073417E /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C463DD9B28F338060073417E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C463DD9D28F338080073417E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C463DDA028F338080073417E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C463DDA828F3384A0073417E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C463DD9828F338060073417E /* IsometricAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C463DDA728F338370073417E /* View */,
 				C463DD9928F338060073417E /* IsometricAnimationApp.swift */,
 				C463DD9B28F338060073417E /* ContentView.swift */,
 				C463DD9D28F338080073417E /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				C463DDA028F338080073417E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C463DDA728F338370073417E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C463DDA828F3384A0073417E /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C463DD9C28F338060073417E /* ContentView.swift in Sources */,
+				C463DDA928F3384A0073417E /* Home.swift in Sources */,
 				C463DD9A28F338060073417E /* IsometricAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
